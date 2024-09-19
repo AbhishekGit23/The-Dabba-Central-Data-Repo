@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4df0f114833052100287b8a6feaad38c" label="Free trial meal" max_length="40" name="x_1340853_the_dabb_free_trial_meal" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Meal time" max_length="40" name="meal_time" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Lunch" value="lunch"/>
+                <element inactive_on_update="false" label="Dinner" value="dinner"/>
+            </choice>
+        </element>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Customer name" max_length="32" name="customer_name" reference="x_1340853_the_dabb_customer" type="reference"/>
+        <element label="Feedback" max_length="300" name="feedback" type="string"/>
+        <index name="index">
+            <element name="customer_name"/>
+        </index>
+    </element>
+</database>

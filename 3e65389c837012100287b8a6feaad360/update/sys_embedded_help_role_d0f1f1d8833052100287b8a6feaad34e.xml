@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1340853_the_dabb.free_trial_meal_user" name="x_1340853_the_dabb.free_trial_meal_user">88f1f1d8833052100287b8a6feaad34b</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>abhishek.sharma</sys_created_by>
+        <sys_created_on>2024-09-18 10:22:13</sys_created_on>
+        <sys_id>d0f1f1d8833052100287b8a6feaad34e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>88f1f1d8833052100287b8a6feaad34b</sys_name>
+        <sys_package display_value="The Dabba Central" source="x_1340853_the_dabb">3e65389c837012100287b8a6feaad360</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="The Dabba Central">3e65389c837012100287b8a6feaad360</sys_scope>
+        <sys_update_name>sys_embedded_help_role_d0f1f1d8833052100287b8a6feaad34e</sys_update_name>
+        <sys_updated_by>abhishek.sharma</sys_updated_by>
+        <sys_updated_on>2024-09-18 10:22:13</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ebd2fde883b812100287b8a6feaad3a6" label="Food Item" max_length="40" name="x_1340853_the_dabb_food_item" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Item type" max_length="40" name="item_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Gravy" value="gravy"/>
+                <element inactive_on_update="false" label="Dry" value="dry"/>
+                <element inactive_on_update="false" label="Rice" value="rice"/>
+            </choice>
+        </element>
+    </element>
+</database>

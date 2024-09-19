@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6d0aed9083bc12100287b8a6feaad351" label="Subscription" max_length="40" name="x_1340853_the_dabb_subscription" type="collection">
+        <element label="Completed Meals" max_length="40" name="completed_meals" type="integer"/>
+        <element label="Customization" max_length="1000" name="customization" type="string"/>
+        <element label="Lapsed Meals" max_length="40" name="lapsed_meals" type="integer"/>
+        <element label="Lunch Roti" max_length="40" name="lunch_roti" type="integer"/>
+        <element label="Special meals" max_length="40" name="special_meals" type="integer"/>
+        <element label="Customer" max_length="32" name="customer" reference="x_1340853_the_dabb_customer" type="reference"/>
+        <element label="Total Meals" max_length="40" name="total_meals" type="integer"/>
+        <element label="Cancelled Meals" max_length="40" name="cancelled_meals" type="integer"/>
+        <element label="Total Special Meals" max_length="40" name="total_special_meals" type="integer"/>
+        <element choice="1" label="Plan type" max_length="40" name="plan_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Monthly" sequence="100" value="monthly"/>
+                <element inactive_on_update="false" label="Weekly Trial" sequence="1" value="weekly trial"/>
+                <element inactive_on_update="false" label="Weekly" sequence="50" value="weekly"/>
+            </choice>
+        </element>
+        <element choice="1" label="Meal type" max_length="40" name="meal_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Lunch" sequence="0" value="lunch"/>
+                <element inactive_on_update="false" label="Dinner" sequence="200" value="dinner"/>
+                <element inactive_on_update="false" label="Lunch &amp; Dinner" sequence="300" value="lunch &amp; dinner"/>
+            </choice>
+        </element>
+        <element label="Dinner Roti" max_length="40" name="dinner_roti" type="integer"/>
+        <element label="End date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Start date" max_length="40" name="start_date" type="glide_date"/>
+        <index name="index">
+            <element name="customer"/>
+        </index>
+    </element>
+</database>

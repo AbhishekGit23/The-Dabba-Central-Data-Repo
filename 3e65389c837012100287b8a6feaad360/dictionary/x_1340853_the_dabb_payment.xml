@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5fc2f1dc833052100287b8a6feaad3cd" label="Payment" max_length="40" name="x_1340853_the_dabb_payment" type="collection">
+        <element label="Short Description" max_length="100" name="short_description" type="string"/>
+        <element label="Amount" max_length="20" name="amount" type="currency"/>
+        <element label="Customer" max_length="32" name="customer" reference="x_1340853_the_dabb_customer" type="reference"/>
+        <index name="index">
+            <element name="customer"/>
+        </index>
+    </element>
+</database>

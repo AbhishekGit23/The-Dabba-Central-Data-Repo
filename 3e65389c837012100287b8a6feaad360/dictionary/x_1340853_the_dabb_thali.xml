@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="40d1f52483b812100287b8a6feaad320" label="Thali" max_length="40" name="x_1340853_the_dabb_thali" type="collection">
+        <element label="Special" max_length="40" name="special" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Gravy" max_length="40" name="gravy" reference="x_1340853_the_dabb_food_item" type="reference"/>
+        <element label="Rice" max_length="40" name="rice" reference="x_1340853_the_dabb_food_item" type="reference"/>
+        <element label="Dry" max_length="40" name="dry" reference="x_1340853_the_dabb_food_item" type="reference"/>
+    </element>
+</database>

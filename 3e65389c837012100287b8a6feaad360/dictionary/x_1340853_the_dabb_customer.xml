@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bb46389083b012100287b8a6feaad31f" label="Customer" max_length="40" name="x_1340853_the_dabb_customer" type="collection">
+        <element label="Location URL" max_length="1024" name="location_url" type="url"/>
+        <element choice="1" label="Veg/Non veg" max_length="40" name="veg_non_veg" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Non veg" value="non_veg"/>
+                <element inactive_on_update="false" label="Veg" value="veg"/>
+            </choice>
+        </element>
+        <element choice="1" label="Profession" max_length="40" name="profession" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Working" value="working"/>
+                <element inactive_on_update="false" label="Student" value="student"/>
+                <element inactive_on_update="false" label="Self employed" value="self_employed"/>
+            </choice>
+        </element>
+        <element label="Student ID" max_length="40" name="student_id" type="user_image"/>
+        <element label="Friend recommendation" max_length="40" name="friend_recommendation" type="boolean"/>
+        <element label="Potential customer" max_length="40" name="potential_customer" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Phone number" max_length="40" name="phone_number" type="integer"/>
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element choice="1" label="Building type" max_length="40" name="building_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Flat" value="flat"/>
+                <element inactive_on_update="false" label="Office" value="office"/>
+                <element inactive_on_update="false" label="PG" value="pg"/>
+            </choice>
+        </element>
+        <element label="Google review" max_length="40" name="google_review" type="boolean"/>
+        <element label="Follow up date" max_length="40" name="follow_up_date" type="glide_date"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Address tag" max_length="40" name="address_tag" type="string"/>
+        <element choice="1" label="Gender" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" value="female"/>
+                <element inactive_on_update="false" label="Male" value="male"/>
+            </choice>
+        </element>
+    </element>
+</database>

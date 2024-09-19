@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="profession" table="x_1340853_the_dabb_customer" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>profession</element>
+            <name>x_1340853_the_dabb_customer</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>abhishek.sharma</sys_created_by>
+            <sys_created_on>2024-09-18 10:04:10</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>profession</sys_name>
+            <sys_package display_value="The Dabba Central" source="x_1340853_the_dabb">3e65389c837012100287b8a6feaad360</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="The Dabba Central">3e65389c837012100287b8a6feaad360</sys_scope>
+            <sys_update_name>sys_choice_x_1340853_the_dabb_customer_profession</sys_update_name>
+            <sys_updated_by>abhishek.sharma</sys_updated_by>
+            <sys_updated_on>2024-09-18 10:04:10</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>profession</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Self employed</label>
+            <language>en</language>
+            <name>x_1340853_the_dabb_customer</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>abhishek.sharma</sys_created_by>
+            <sys_created_on>2024-09-18 10:05:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhishek.sharma</sys_updated_by>
+            <sys_updated_on>2024-09-18 10:05:02</sys_updated_on>
+            <value>self_employed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>profession</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Student</label>
+            <language>en</language>
+            <name>x_1340853_the_dabb_customer</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>abhishek.sharma</sys_created_by>
+            <sys_created_on>2024-09-18 10:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhishek.sharma</sys_updated_by>
+            <sys_updated_on>2024-09-18 10:04:10</sys_updated_on>
+            <value>student</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>profession</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Working</label>
+            <language>en</language>
+            <name>x_1340853_the_dabb_customer</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>abhishek.sharma</sys_created_by>
+            <sys_created_on>2024-09-18 10:04:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhishek.sharma</sys_updated_by>
+            <sys_updated_on>2024-09-18 10:04:23</sys_updated_on>
+            <value>working</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

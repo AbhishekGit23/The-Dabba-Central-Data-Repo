@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1340853_the_dabb_food_item">x_1340853_the_dabb_food_item</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>FOO</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>abhishek.sharma</sys_created_by>
+        <sys_created_on>2024-09-19 05:06:23</sys_created_on>
+        <sys_id>a733fdac83b812100287b8a6feaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FOO</sys_name>
+        <sys_package display_value="The Dabba Central" source="x_1340853_the_dabb">3e65389c837012100287b8a6feaad360</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="The Dabba Central">3e65389c837012100287b8a6feaad360</sys_scope>
+        <sys_update_name>sys_number_a733fdac83b812100287b8a6feaad3ae</sys_update_name>
+        <sys_updated_by>abhishek.sharma</sys_updated_by>
+        <sys_updated_on>2024-09-19 05:06:23</sys_updated_on>
+    </sys_number>
+</record_update>

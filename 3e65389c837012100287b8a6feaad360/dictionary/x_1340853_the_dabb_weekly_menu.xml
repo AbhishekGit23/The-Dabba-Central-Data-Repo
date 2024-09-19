@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c9023de0833812100287b8a6feaad385" label="Weekly Menu" max_length="40" name="x_1340853_the_dabb_weekly_menu" type="collection">
+        <element label="Tuesday Dinner" max_length="32" name="tuesday_dinner" reference="x_1340853_the_dabb_thali" type="reference"/>
+        <element label="Monday Dinner" max_length="32" name="monday_dinner" reference="x_1340853_the_dabb_thali" type="reference"/>
+        <element label="Tuesday Lunch" max_length="32" name="tuesday_lunch" reference="x_1340853_the_dabb_thali" type="reference"/>
+        <element label="Thursday Lunch" max_length="32" name="thursday_lunch" reference="x_1340853_the_dabb_thali" type="reference"/>
+        <element label="Monday Lunch" max_length="32" name="monday_lunch" reference="x_1340853_the_dabb_thali" type="reference"/>
+        <element label="Saturday Dinner" max_length="32" name="saturday_dinner" reference="x_1340853_the_dabb_thali" type="reference"/>
+        <element label="Wednesday Lunch" max_length="32" name="wednesday_lunch" reference="x_1340853_the_dabb_thali" type="reference"/>
+        <element label="Friday Lunch" max_length="32" name="friday_lunch" reference="x_1340853_the_dabb_thali" type="reference"/>
+        <element label="Thursday Dinner" max_length="32" name="thursday_dinner" reference="x_1340853_the_dabb_thali" type="reference"/>
+        <element label="Wednesday Dinner" max_length="32" name="wednesday_dinner" reference="x_1340853_the_dabb_thali" type="reference"/>
+        <element label="Friday Dinner" max_length="32" name="friday_dinner" reference="x_1340853_the_dabb_thali" type="reference"/>
+        <element label="End date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Start date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Saturday Lunch" max_length="32" name="saturday_lunch" reference="x_1340853_the_dabb_thali" type="reference"/>
+        <index name="index">
+            <element name="friday_dinner"/>
+        </index>
+        <index name="index2">
+            <element name="friday_lunch"/>
+        </index>
+        <index name="index3">
+            <element name="monday_dinner"/>
+        </index>
+        <index name="index4">
+            <element name="monday_lunch"/>
+        </index>
+        <index name="index5">
+            <element name="saturday_dinner"/>
+        </index>
+        <index name="index6">
+            <element name="saturday_lunch"/>
+        </index>
+        <index name="index7">
+            <element name="thursday_dinner"/>
+        </index>
+        <index name="index8">
+            <element name="thursday_lunch"/>
+        </index>
+        <index name="index9">
+            <element name="tuesday_dinner"/>
+        </index>
+        <index name="index10">
+            <element name="tuesday_lunch"/>
+        </index>
+        <index name="index11">
+            <element name="wednesday_dinner"/>
+        </index>
+        <index name="index12">
+            <element name="wednesday_lunch"/>
+        </index>
+    </element>
+</database>

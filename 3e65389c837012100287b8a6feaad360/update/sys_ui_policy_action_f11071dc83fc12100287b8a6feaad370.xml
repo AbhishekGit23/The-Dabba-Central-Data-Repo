@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>student_id</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>abhishek.sharma</sys_created_by>
+        <sys_created_on>2024-09-18 10:14:33</sys_created_on>
+        <sys_id>f11071dc83fc12100287b8a6feaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>student_id</sys_name>
+        <sys_package display_value="The Dabba Central" source="x_1340853_the_dabb">3e65389c837012100287b8a6feaad360</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="The Dabba Central">3e65389c837012100287b8a6feaad360</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f11071dc83fc12100287b8a6feaad370</sys_update_name>
+        <sys_updated_by>abhishek.sharma</sys_updated_by>
+        <sys_updated_on>2024-09-18 10:14:33</sys_updated_on>
+        <table>x_1340853_the_dabb_customer</table>
+        <ui_policy display_value="Show student ID option if profession is student.">18dfe99c83fc12100287b8a6feaad308</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=f11071dc83fc12100287b8a6feaad370"/>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1340853_the_dabb_free_trial_meal">x_1340853_the_dabb_free_trial_meal</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>FRE</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>abhishek.sharma</sys_created_by>
+        <sys_created_on>2024-09-18 10:22:17</sys_created_on>
+        <sys_id>01f175d8833052100287b8a6feaad330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FRE</sys_name>
+        <sys_package display_value="The Dabba Central" source="x_1340853_the_dabb">3e65389c837012100287b8a6feaad360</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="The Dabba Central">3e65389c837012100287b8a6feaad360</sys_scope>
+        <sys_update_name>sys_number_01f175d8833052100287b8a6feaad330</sys_update_name>
+        <sys_updated_by>abhishek.sharma</sys_updated_by>
+        <sys_updated_on>2024-09-18 10:22:17</sys_updated_on>
+    </sys_number>
+</record_update>

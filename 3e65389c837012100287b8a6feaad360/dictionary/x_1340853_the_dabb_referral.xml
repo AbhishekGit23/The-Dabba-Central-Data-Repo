@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ccd2b550837052100287b8a6feaad306" label="Referral" max_length="40" name="x_1340853_the_dabb_referral" type="collection">
+        <element label="Referred by" max_length="32" name="referred_by" reference="x_1340853_the_dabb_customer" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Referred person" max_length="32" name="referred_person" reference="x_1340853_the_dabb_customer" type="reference"/>
+        <index name="index">
+            <element name="referred_by"/>
+        </index>
+        <index name="index2">
+            <element name="referred_person"/>
+        </index>
+    </element>
+</database>
